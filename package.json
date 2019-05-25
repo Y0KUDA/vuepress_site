@@ -1,0 +1,18 @@
+{
+  "name": "mywebsite",
+  "version": "1.0.0",
+  "description": "my awesome static web site",
+  "main": "index.js",
+  "author": "Y0KUDA <40825115+Y0KUDA@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "devDependencies": {
+    "vuepress": "^0.14.11"
+  },
+  "dependencies": {
+    "vuepress-theme-ktquez": "^0.2.18"
+  }
+}
